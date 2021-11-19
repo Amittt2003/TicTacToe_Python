@@ -1,4 +1,4 @@
-from TicTacToe.Point import Point
+from Point import Point
 
 
 class Rectangle:
