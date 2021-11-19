@@ -19,10 +19,10 @@ screen = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
 pygame.display.set_caption("Tic Tac Toe")
 
 # loading the images as python object
-initiating_window = pygame.image.load(r"C:\Users\Amit\PycharmProjects\Amit\TicTacToe\files\launch_screen.png")
-launch_window = pygame.image.load(r"C:\Users\Amit\PycharmProjects\Amit\TicTacToe\files\start_screen.jpg")
-x_img = pygame.image.load(r"C:\Users\Amit\PycharmProjects\Amit\TicTacToe\files\x_img.png")
-y_img = pygame.image.load(r"C:\Users\Amit\PycharmProjects\Amit\TicTacToe\files\o_img.png")
+initiating_window = pygame.image.load("files/launch_screen.png")
+launch_window = pygame.image.load("files/start_screen.jpg")
+x_img = pygame.image.load("files/x_img.png")
+y_img = pygame.image.load("files/o_img.png")
 
 # resizing images
 initiating_window = pygame.transform.scale(initiating_window, (SCREEN_WIDTH, SCREEN_HEIGHT))
