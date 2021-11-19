@@ -2,7 +2,7 @@
 import random
 import time
 import pygame
-from TicTacToe.Rectangle import Rectangle
+from Rectangle import Rectangle
 
 pygame.init()
 
